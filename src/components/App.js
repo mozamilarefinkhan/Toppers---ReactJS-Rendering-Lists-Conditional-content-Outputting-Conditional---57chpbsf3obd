@@ -50,7 +50,7 @@ class App extends Component {
 				   			return(
 				   				//Conditional statement in the className of below div to give callName="bg-pink"
 				   				//if the percent >= 90 else className = "" 
-				   				<div key={index} className={mozamil}>
+				   				<div key={index} className="">
 					   				<div className="name">
 					   					 //Write code to display name
 					   				</div>
