@@ -43,13 +43,14 @@ class App extends Component {
     		<div id="main">
     			{
     				//Correct the percentage conditional for correct output
+
     				this.state.list.map(function(item,index){
 				   		if(item.percent > 0)
 				   		{
 				   			return(
 				   				//Conditional statement in the className of below div to give callName="bg-pink"
 				   				//if the percent >= 90 else className = "" 
-				   				<div key={index} className={}>
+				   				<div key={index} className={mozamil}>
 					   				<div className="name">
 					   					 //Write code to display name
 					   				</div>
@@ -68,4 +69,5 @@ class App extends Component {
 
 
 export default App;
+
 
